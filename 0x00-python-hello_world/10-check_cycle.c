@@ -14,7 +14,7 @@ int check_cycle(listint_t *list)
 	rapid_ptr = list;
 	slow_ptr = list;
 
-	while(rapid_ptr && slow_ptr)
+	while(rapid_ptr && slow_ptr && rapid_ptr->next)
 	{
 		rapid_ptr = rapid_ptr->next->next;
 		slow_ptr = slow_ptr->next;
