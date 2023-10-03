@@ -7,9 +7,9 @@
  * Return: 0 if there is no cycle, 1 if there is a cycle.
  */
 
-int check_cycle(listint_t *head)
+int check_cycle(listint_t *list)
 {
-	listint_t *slow_ptr = head, *fast_ptr = head;
+	listint_t *slow_ptr = list, *fast_ptr = list;
 
 	while (slow_ptr && fast_ptr && fast_ptr->next)
 	{
