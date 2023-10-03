@@ -7,7 +7,7 @@
  * Return: 0 if there is no cycle, 1 if there is a cycle
  */
 
-int ccheck_cycle(listint_t *list)
+int check_cycle(listint_t *list)
 {
 	listint_t *rapid_ptr, *slow_ptr;
 
