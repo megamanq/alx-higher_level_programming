@@ -3,10 +3,10 @@ import hidden_4
 
 
 def main():
-    ln = dir(hidden_4)
-    for i in range(len(ln)):
-        if(ln[i][0] != '_'):
-            print("{}".format(ln[i]))
+    lng = dir(hidden_4)
+    for i in range(len(lng)):
+        if(lng[i][0] != '_'):
+            print("{}".format(lng[i]))
 
 
 if __name__ == "__main__":
