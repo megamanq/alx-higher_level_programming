@@ -11,5 +11,6 @@ def divisible_by_2(my_list=[]):
 
     return new
 
+
 if __name__ == "__main__":
     divisible_by_2(my_list=[])
