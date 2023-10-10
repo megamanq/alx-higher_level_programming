@@ -8,4 +8,4 @@ def delete_at(my_list=[], idx=0):
 
 
 if __name__ == "__main__":
-    delete_at()
+    delete_at(my_list=[], idx=0)
