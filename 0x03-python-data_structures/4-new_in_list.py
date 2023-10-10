@@ -8,3 +8,7 @@ def new_in_list(my_list, idx, element):
     else:
         new[idx] = element
         return(new)
+
+
+if __name__ == "__main__":
+    new_in_list(my_list, idx, element)
