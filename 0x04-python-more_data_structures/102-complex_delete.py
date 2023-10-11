@@ -2,10 +2,6 @@
 
 def complex_delete(a_dictionary, value):
     for x in list(a_dictionary.keys()):
-        if a_dictionary[x] is value:
+        if a_dictionary[x] == value:
             del(a_dictionary[x])
     return a_dictionary
-
-
-if __name__ == "__main__":
-    complex_delete()
