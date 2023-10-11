@@ -4,3 +4,6 @@ def complex_delete(a_dictionary, value):
         if a_dictionary[x] is value:
             del(a_dictionary[x])
     return a_dictionary
+
+if __name__ == "__main__":
+    complex_delete()
