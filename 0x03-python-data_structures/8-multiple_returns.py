@@ -6,6 +6,6 @@ def multiple_returns(sentence):
     if lenght != 0:
         first = sentence[0]
     else:
-        frist = ''
+        first = None
 
     return lenght, first
