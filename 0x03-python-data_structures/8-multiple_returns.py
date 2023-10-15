@@ -2,8 +2,8 @@
 
 def multiple_returns(sentence):
     lenght = len(sentence)
-
-    if lenght:
+    first = ''
+    if lenght != 0:
         first = sentence[0]
     else:
         frist = None
