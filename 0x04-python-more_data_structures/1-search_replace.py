@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
 def search_replace(my_list, search, replace):
-    new = [98 if i == 2 else i for i in my_list]
+    new = [replace if i == search else i for i in my_list]
 
     return new
