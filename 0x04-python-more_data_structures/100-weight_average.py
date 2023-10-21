@@ -3,8 +3,8 @@
 def weight_average(my_list=[]):
     sums = 0
     divs = 0
+    
+    sums = sum([x * y for x, y in my_list])
+    divs = sum([x[1] for x in my_list])
 
-    for tupl in my_list:
-        sums += 0 + tupl[0] * tupl[1]
-        divs += 0 + tupl[1]
     return sums / divs
