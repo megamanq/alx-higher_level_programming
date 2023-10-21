@@ -7,6 +7,9 @@ def roman_to_int(roman_string):
     result = 0
     prev_value = 0
 
+    if type(roman_string) != str or not roman_string:
+        return 0
+
     for numeral in reversed(roman_string):
         value = roman_values.get(numeral, 0)
         if value < prev_value:
