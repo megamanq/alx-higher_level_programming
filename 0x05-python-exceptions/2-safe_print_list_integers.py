@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    prin first nbr element of list nd only int
+    prin first x element of list nd only int
 
     """
 
