@@ -3,6 +3,7 @@
     func that rais type excep
     """
 
+
 def raise_exception():
     try:
         raise(TypeError)

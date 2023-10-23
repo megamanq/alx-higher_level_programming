@@ -3,6 +3,7 @@
  divid 2 int nd print res
     """
 
+
 def safe_print_division(a, b):
     try:
         x = a / b
